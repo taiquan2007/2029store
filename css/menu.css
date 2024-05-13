@@ -1,0 +1,41 @@
+#carouselExample{
+    width: 100%;
+    height: 194.58px;
+    margin-top: 26%;
+}
+#carouselExampleIndicators{
+    margin-top: 20px;
+}
+.carousel-indicators {
+    width: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.carousel-control-prev,
+.carousel-control-next {
+    border-radius: 7px;
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: whitesmoke;
+}
+
+.carousel-control-prev {
+    left: 0;
+    right: auto;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.carousel-control-next {
+    right: 0;
+    left: auto;
+    margin-left: auto;
+    margin-right: 15px;
+}

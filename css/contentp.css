@@ -1,0 +1,73 @@
+body{
+    background-color: whitesmoke;
+}
+.brand-button{
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: white;
+}
+.brand-button:hover{
+    background-color: white;
+    border: 1px solid #0099ff;
+}
+.img1{
+    width: 100%;
+}
+.divider{
+    height: 50px;
+    width: 100%;
+}
+.card{
+    
+    border-radius: 0px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card-img-top{
+    margin-top: 30px;
+    overflow: hidden;
+    width:100%;
+    height: auto;       
+    transition: transform 0.3s; /* Thêm transition cho hiệu ứng */
+}
+
+.card-img-top:hover {
+    transform: translateY(-10px); /* Di chuyển ảnh lên khi di chuột vào */
+}
+.card-title{
+    text-decoration: none;
+    margin-top: 200px;
+}
+.price{
+    text-decoration:line-through ;
+    position: absolute;
+}
+.price-and-discount{
+    text-decoration: none;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.dpl{
+    font-size: small;
+    display: inline-block;
+    background-color: rgb(209, 209, 209);
+    width: 14%;
+    text-align: center;   
+}
+.name{
+    font-size: small;
+    display: inline-block;
+    background-color: rgb(209, 209, 209);
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+}
+.buy{
+    text-decoration: none;
+    color: red;
+}
